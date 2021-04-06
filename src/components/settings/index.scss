@@ -1,0 +1,59 @@
+.settings {
+  display: flex;
+  padding: 1rem;
+
+  .badge {
+    background-color: #585a96;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .left {
+    width: 250px;
+    height: 100vh;
+    border-right: 1px solid #efefef;
+    padding: 1rem;
+
+    &-title {
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #efefef;
+    }
+
+    &-menu {
+      .item {
+        display: flex;
+        align-items: center;
+      }
+
+      .badge {
+        margin-right: 0.5rem;
+      }
+
+      &-sub-item {
+        margin-left: 0.75rem;
+      }
+    }
+  }
+
+  .right {
+    padding: 1rem;
+  }
+
+  &-search {
+    margin-left: 0.5rem;
+  }
+
+  &-add-new {
+    display: flex;
+    margin-top: 1rem;
+    & input,
+    button {
+      margin-right: 0.5rem;
+    }
+  }
+}
